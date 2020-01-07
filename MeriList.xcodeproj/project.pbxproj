@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9B1279A23C29CEB00088CCE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B1279923C29CEB00088CCE /* Item.swift */; };
 		F9DF083E23BB055D00AD225A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DF083D23BB055D00AD225A /* AppDelegate.swift */; };
-		F9DF084023BB055D00AD225A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DF083F23BB055D00AD225A /* ViewController.swift */; };
+		F9DF084023BB055D00AD225A /* MeriListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DF083F23BB055D00AD225A /* MeriListViewController.swift */; };
 		F9DF084323BB055D00AD225A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DF084123BB055D00AD225A /* Main.storyboard */; };
 		F9DF084523BB055E00AD225A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9DF084423BB055E00AD225A /* Assets.xcassets */; };
 		F9DF084823BB055E00AD225A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DF084623BB055E00AD225A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9B1279923C29CEB00088CCE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F9DF083A23BB055D00AD225A /* MeriList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeriList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DF083D23BB055D00AD225A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9DF083F23BB055D00AD225A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9DF083F23BB055D00AD225A /* MeriListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeriListViewController.swift; sourceTree = "<group>"; };
 		F9DF084223BB055D00AD225A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9DF084423BB055E00AD225A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9DF084723BB055E00AD225A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +37,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9B1279B23C2E56800088CCE /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9B1279923C29CEB00088CCE /* Item.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		F9B1279C23C2E57400088CCE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9DF083F23BB055D00AD225A /* MeriListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F9B1279D23C2E67D00088CCE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9DF084123BB055D00AD225A /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9B1279E23C2E68F00088CCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9DF084423BB055E00AD225A /* Assets.xcassets */,
+				F9DF084623BB055E00AD225A /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		F9DF083123BB055D00AD225A = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +90,10 @@
 			isa = PBXGroup;
 			children = (
 				F9DF083D23BB055D00AD225A /* AppDelegate.swift */,
-				F9DF083F23BB055D00AD225A /* ViewController.swift */,
-				F9DF084123BB055D00AD225A /* Main.storyboard */,
-				F9DF084423BB055E00AD225A /* Assets.xcassets */,
-				F9DF084623BB055E00AD225A /* LaunchScreen.storyboard */,
+				F9B1279C23C2E57400088CCE /* Controllers */,
+				F9B1279B23C2E56800088CCE /* Data Model */,
+				F9B1279D23C2E67D00088CCE /* Views */,
+				F9B1279E23C2E68F00088CCE /* Supporting Files */,
 				F9DF084923BB055E00AD225A /* Info.plist */,
 			);
 			path = MeriList;
@@ -135,7 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9DF084023BB055D00AD225A /* ViewController.swift in Sources */,
+				F9DF084023BB055D00AD225A /* MeriListViewController.swift in Sources */,
+				F9B1279A23C29CEB00088CCE /* Item.swift in Sources */,
 				F9DF083E23BB055D00AD225A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
